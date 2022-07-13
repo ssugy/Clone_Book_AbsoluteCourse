@@ -1,4 +1,8 @@
-![이미지](https://wikibook.co.kr/images/cover/s/9791158391058.jpg)
+<img
+  src="./Image/절대강좌2018.jpg"
+  width="30%"
+  height="30%"
+/>
 
 # Clone_Book_AbsoluteCourse
 절대강좌2018 책을 기반으로 클론코딩을 하는 프로젝트입니다.
