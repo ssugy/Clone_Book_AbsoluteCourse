@@ -199,6 +199,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rotateSpeed: 90
+  playerAnim:
+    idle: {fileID: 7400000, guid: df787a42d52d64ff4b908f7a344d499e, type: 2}
+    runF: {fileID: 7400000, guid: 185c4b4f1e1c1441d920959e7dee49a5, type: 2}
+    runB: {fileID: 7400000, guid: 777be73b9098940d086517b3fe6beb8a, type: 2}
+    runL: {fileID: 7400000, guid: 268781a61383b42a98eeda538dfa52e9, type: 2}
+    runR: {fileID: 7400000, guid: f65e8694646404294b2de66b5827d6e5, type: 2}
+  anim: {fileID: 215124579}
 --- !u!4 &215124578 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400046, guid: f3cd25b3bf53c4adaaf087d862e435e6, type: 3}
@@ -221,7 +228,7 @@ Animation:
   - {fileID: 7400000, guid: 268781a61383b42a98eeda538dfa52e9, type: 2}
   - {fileID: 7400000, guid: f65e8694646404294b2de66b5827d6e5, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!1 &231311055
