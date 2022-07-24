@@ -10,7 +10,6 @@ public class PlayerAnim
     public AnimationClip runB;
     public AnimationClip runL;
     public AnimationClip runR;
-
 }
 
 
